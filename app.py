@@ -28,7 +28,7 @@ fig.update_layout(margin={"r":0,"t":0,"l":0,"b":0})
 ########### Set up the layout
 
 app.layout = html.Div(children=[
-    html.H1('DC Crime'),
+    html.H1('Number of Crimes by Area'),
     html.Div([
         dcc.Graph(id='figure-1', figure=fig),
         html.A('Code on Github', href='https://github.com/aidanjdm/dash-density-heatmap'),
